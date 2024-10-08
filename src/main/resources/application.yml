@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: SpringBatch_Application
+  batch:
+    jdbc:
+      initialize-schema: always
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    password: sainath123
+    url: jdbc:postgresql://localhost:5432/springbatch
+    username: postgres
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    
+server:
+  port: 3030    
